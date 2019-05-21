@@ -1,0 +1,168 @@
+body {
+
+    background-image: url("Download.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+
+
+#game {
+
+
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+    color: yellow;
+    font-family: 'Lobster', cursive;
+
+}
+
+main {
+
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+
+    width: 60px;
+    height: 90px;
+    margin: 6px;
+    padding: 6px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px darkred ;
+    border-radius: 3px 3px 3px 3px;
+    background-color: beige;
+    box-sizing: border-box;
+    background-image: url("html.png");
+
+
+    background-repeat: no-repeat;
+    background-size:  cover;
+    animation: pulse 5s infinite;
+}
+
+/* @keyframes pulse {
+    0% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+*/
+
+
+#counter {
+
+    border-width: 1px;
+     border-style: solid;
+     border-color: white;
+     font-size: 20px;
+     color: white;
+     background-color: darkred;
+     padding: 20px;
+     padding-top: 10px;
+     width: 10px;
+     height: 10px;
+     margin-left: auto;
+     margin-right: auto;
+
+
+
+ }
+
+#fails {
+
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+    background-color: darkred;
+    padding: 20px;
+    padding-top: 10px;
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+#reset {
+
+    font-size: 10px;
+
+}
+
+p {
+
+    color: white;
+    background-color: darkred;
+    font-weight: bold;
+    width: 100px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+#match {
+    font-size: 50px;
+    color: transparent;
+    border-color: yellow;
+    border-width: 1px;
+    background-color: black;
+    text-align: center;
+    border-style: solid;
+
+}
+
+#count {
+
+    display: flex;
+
+}
+
+#reset {
+
+    color: white;
+    background-color: darkred;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+}
+
+#sorting {
+
+    display: flex;
+
+    color: white;
+    background-color: darkred;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+}
